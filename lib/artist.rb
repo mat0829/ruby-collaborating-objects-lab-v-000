@@ -28,8 +28,12 @@ class Artist
   end
   
   def add_song(song)
+<<<<<<< HEAD
     @songs << song unless @songs.include?(song)
     song.artist = self unless song.artist == self
+=======
+    @songs << song
+>>>>>>> 528e6e6ef691455bffd6a12500c5bff6e8b43ba2
   end
 
   def save

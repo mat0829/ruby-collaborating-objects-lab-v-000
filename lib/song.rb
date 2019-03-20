@@ -1,12 +1,17 @@
 class Song 
+<<<<<<< HEAD
   attr_accessor :genre, :name
   attr_reader :artist
+=======
+  attr_reader :artist, :name
+>>>>>>> 528e6e6ef691455bffd6a12500c5bff6e8b43ba2
   
   def initialize(name)
     @name = name
     @artist = nil
   end
   
+<<<<<<< HEAD
   @@all = []
   
   def self.all
@@ -31,4 +36,6 @@ class Song
    song.save
   end
   
+=======
+>>>>>>> 528e6e6ef691455bffd6a12500c5bff6e8b43ba2
 end
